@@ -9,6 +9,7 @@ and presents the operation of several methods:
 url addresses to read data
 - posts: https://jsonplaceholder.typicode.com/posts
 - users: https://jsonplaceholder.typicode.com/users
+
 *Internet connection required for program operation
 
 The program also includes a set of tests to check if it works correctly
