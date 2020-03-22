@@ -13,7 +13,7 @@ url addresses to read data
 
 The program also includes a set of tests to check if it works correctly
 
-Program implemented in java jdk 1.8 using the Intelij IDEA2019.3.3 program
+Program implemented in java jdk 1.8 using the Intelij IDEA 2019.3.3 program
 
 Example of program operation:
 
