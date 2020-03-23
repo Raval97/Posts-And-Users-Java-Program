@@ -17,7 +17,7 @@ Program implemented in java jdk 1.8 using the Intelij IDEA 2019.3.3 program
 
 Example of program operation:
 
-![Image description](https://github.com/Raval97/Posts-And-Users-Java-Program/blob/master/screens/1.PNG?raw=true)
+![Image description](https://github.com/Raval97/Posts-And-Users-Java-Program/blob/master/screens/1.png?raw=true)
 
 ![Image description](https://github.com/Raval97/Posts-And-Users-Java-Program/blob/master/screens/2.PNG?raw=true)
 
