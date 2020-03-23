@@ -3,17 +3,24 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        // reading data about posts and users from url address
+
+        //reading the data from url addresses
         Reader reader = new Reader();
         Post[] posts = reader.readPosts("https://jsonplaceholder.typicode.com/posts");;
         User[] users = reader.readUsers("https://jsonplaceholder.typicode.com/users");;
+
+        //creating an object to perform the main functions of the program
         Functions functions = new Functions(posts, users);
-        int programUserOptionSelected=0;
+
+        // ancillary variables during program operation
         Scanner scanner = new Scanner(System.in);
         boolean endTheProgram = false;
+        int programUserOptionSelected=0;
         ArrayList<String> returnedMethodResponses;
+
         System.out.println("WELCOME IN MY PROGRAM");
         while (endTheProgram == false) {
+
             System.out.println("\n"+new String(new char[40]).replace("\0", "#"));
             System.out.println(new String(new char[40]).replace("\0", "#"));
             System.out.println("MENU:");
@@ -23,6 +30,7 @@ public class Main {
             System.out.println("0. Wyjdź z programu");
             System.out.print("Podaj opcje: ");
             programUserOptionSelected = scanner.nextInt();
+
             switch (programUserOptionSelected) {
                 case 1:
                     System.out.println("\t"+new String(new char[40]).replace("\0", "#"));
@@ -45,7 +53,7 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("\t"+new String(new char[40]).replace("\0", "#"));
-                    System.out.println("\t*Dystans w linii prostej podany w jednostkach geograficznych");
+                    System.out.println("\t*Dystans w linii prostej podany w jednostkach współrzędnych geograficznych");
                     returnedMethodResponses = functions.theNearestUser();
                     for (String response :  returnedMethodResponses) {
                         System.out.println(response);

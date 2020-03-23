@@ -6,7 +6,6 @@ import java.net.URL;
 
 // class that helps to read the data and assign them to variables
 public class Reader {
-    //variables
     private URL url;
     private BufferedReader in;
     private String inputLine;
@@ -15,8 +14,8 @@ public class Reader {
     }
 
     //method to read all text from url and return text in String, parameter url - address URL
-    public String readUrl(String url) throws IOException {
-        this.url = new URL(url);
+    public String readUrl(String Address) throws IOException {
+        this.url = new URL(Address);
         in = new BufferedReader(new InputStreamReader(this.url.openStream()));
         String jsonText="";
         while ((inputLine = in.readLine()) != null)

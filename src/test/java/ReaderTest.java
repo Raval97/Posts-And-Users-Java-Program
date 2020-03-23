@@ -11,7 +11,6 @@ public class ReaderTest {
     String jsonTestPosts;
     String jsonTestUsers;
 
-    //BDD
     @Test
     public void should_read_url() throws Exception {
         //given
@@ -30,7 +29,6 @@ public class ReaderTest {
         Assert.assertTrue(actualMessage.contains(expectedMessageError));
     }
 
-    //BDD
     @Test
     public void should_read_posts() throws Exception {
         //given

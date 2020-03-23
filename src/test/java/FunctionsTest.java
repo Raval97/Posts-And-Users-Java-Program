@@ -57,7 +57,7 @@ public class FunctionsTest {
         Assert.assertEquals(response.size(), 3);
         Assert.assertTrue(response.get(0).equals("	Nablizej uzytkownika o id 1 jest uzytkownik o id 2  (dystans wynosi 31.622776)"));
         Assert.assertTrue(response.get(2).equals("	Nablizej uzytkownika o id 3 jest uzytkownik o id 1  (dystans wynosi 91.24144)"));
-        // in this case users table have onle one element
+        // in this case users table have only one element
         Assert.assertTrue(response2.get(0)=="In data is only one user.");
     }
 
