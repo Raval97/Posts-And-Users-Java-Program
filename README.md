@@ -21,4 +21,3 @@ Example of program operation:
 
 ![Image description](https://github.com/Raval97/Posts-And-Users-Java-Program/blob/master/screen/2.PNG?raw=true)
 
-![Image description](https://github.com/Raval97/Posts-And-Users-Java-Program/blob/master/screen/3.PNG?raw=true)
