@@ -1,6 +1,7 @@
 # Posts-And-Users-Java-Program
 
 Program is example of using json text to load data (users and posts) from url                                                             and presents the operation of several methods:
+- combining data about posts and users into one data structure
 - method for counting the number of posts for each user
 - a method that checks the uniqueness of post titles
 - a method that finds users who are closest to other users
